@@ -1,0 +1,170 @@
+.tabs-navs {
+  background: #121212;
+  border-radius: 4rem;
+  width: max-content;
+  margin: 0 auto 40px;
+  padding: 5px;
+}
+
+.signup-contain {
+  background: #242424;
+  padding: 40px;
+  margin: 80px auto;
+  border-radius: 20px;
+  max-width: 768px;
+  width: 100%;
+}
+
+a:focus {
+  outline: unset;
+}
+
+.tabs-navs.nav-pills .nav-link {
+  border-radius: 4rem;
+  color: #ffff;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.tabs-navs.nav-pills .nav-link.active {
+  background: #10ff8d;
+  color: #000;
+}
+.form-control {
+  border-radius: 4rem;
+  background: transparent;
+  border: 1px solid #10ff8d;
+  font-size: 14px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.form-input {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto 20px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #10ff8d;
+  background-color: #242424;
+  color: #fff;
+}
+
+.form-label {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.form-text {
+  color: #fff;
+}
+form h2 {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.btn-primary {
+  background: #10ff8d;
+  border-color: #10ff8d;
+  border-radius: 4rem;
+  color: #000;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  transition: all 0.5s;
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: #10ff8d;
+}
+.btn-primary:disabled {
+  background: #10ff8d;
+  border-color: #10ff8d;
+  color: #000;
+}
+.checkbox-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin: 0 auto 30px;
+}
+
+.checkbox-input input {
+  position: absolute;
+  top: 5;
+  left: 0;
+  z-index: 99;
+  opacity: 0;
+}
+
+.checkbox-input p {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  cursor: pointer;
+}
+.checkbox-input input:checked + span {
+  background: #10ff8d;
+}
+.checkbox-input span {
+  width: 15px;
+  height: 15px;
+  border-radius: 1px;
+  background: #fff;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-input span svg {
+  fill: #fff;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+@media screen and (max-width: 349px) {
+  .tabs-navs {
+    width: auto;
+    justify-content: center;
+    background: transparent;
+  }
+
+  .tabs-navs.nav-pills .nav-link {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #000;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .agree-contain {
+    width: 200px;
+  }
+}
+
+.term-and-condition {
+  color: #10ff8d;
+  text-decoration: none;
+}
+
+.term-and-condition:hover {
+  color: #10ff8d;
+  cursor: pointer;
+}
